@@ -42,6 +42,13 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
          <video controls className="project-video"><source src= "public\assets\Universityprojects\time lapse sunset.mp4"/></video>
          
         </div>
+         <h2 className='subtitle'>Figma project</h2>
+        <div className='card'>
+        
+         <video controls className="project-video"><source src= "public\assets\Universityprojects\my app evergreen roses.mp4"/></video>
+        </div>
+          
+
           <h2 className='subtitle'>Bitsy game Finding Wifi</h2>
         <div className='card'>
         
@@ -65,6 +72,7 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
         <br/>
         <div className='card'>
         <video controls className="project-video"><source src= "public/assets/Universityprojects/Angel Sara Mathew walkthrough video.mp4"/></video>
+        <a href="https://wild-soar.vercel.app/" target="_blank" rel="noopener noreferrer"  title="Click to visit the website" className='web-site'>Visit Website</a>
         </div>
           
         <h2 className='subtitle'> For Yarah Consultants </h2>
@@ -101,14 +109,25 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
       </section>
       <section className="personalworks">
         <h1 className='title3'> Personal Works</h1>
+         <h2 className='subtitle'>UI design</h2>
+          <div className='uicard2' id="personalworks-section" >
+          <img src="public/assets/Personalwork/UI design/app.png" alt="UI Design"/>
+         <img src="public/assets/Personalwork/UI design/wildlife.png" alt="UI Design"/>
+          </div>
+         <div className='uicard'>
+          <img src="public/assets/Personalwork/UI design/Alexa Tell a joke.png" alt="UI Design"  />
+          <img src="public/assets/Personalwork/UI design/evergreen_roses.png" alt="UI Design"  />
+          
+          </div>
+         
         <h2 className='subtitle'>Stories</h2>
-        <div id="personalworks-section">
+        <div >
           <div className="story-container">
             <img src="public/assets/coverpagebg/mlp.png" alt="Story" className='coverpage'/>
             <div className="story-content-overlay">
               <h3 className="story-title">Marvellous life of a parrot</h3>
              <a href="public/assets/Personalwork/Stories/Marvellous life of a parrot.pdf"
-          target="_blank" rel="noopener noreferrer" className='pdf-link'>
+          target="_blank" rel="noopener noreferrer" title="Click to read the story" className='pdf-link'>
             <div className='pdf-box'>
               <span>Read Story</span>
             </div>
@@ -121,9 +140,9 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
             <div className="story-content-overlay">
               <h3 className="story-title2">The valiant girl</h3>
               <a href="public/assets/Personalwork/Stories/story_ valiant girl.pdf"
-          target="_blank" rel="noopener noreferrer" className='pdf-link'>
+          target="_blank" rel="noopener noreferrer" title="Click to read the story" className='pdf-link'>
             <div className='pdf-box'>
-              <span>Read Story</span>
+              <span> Read Story</span>
             </div>
           </a>
             </div>
@@ -134,7 +153,7 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
             <div className="story-content-overlay">
               <h3 className="story-title3">Poppy</h3>
               <a href="public/assets/Personalwork/Stories/Story_ Poppy.pdf"
-          target="_blank" rel="noopener noreferrer" className='pdf-link'>
+          target="_blank" rel="noopener noreferrer" title="Click to read the story" className='pdf-link'>
             <div className='pdf-box'>
               <span>Read Story</span>
             </div>
@@ -147,7 +166,7 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
             <div className="story-content-overlay">
               <h3 className="story-title2"> Golden Pheasant</h3>
               <a href="public/assets/Personalwork/Stories/Story_golden pheasant.pdf"
-          target="_blank" rel="noopener noreferrer" className='pdf-link'>
+          target="_blank" rel="noopener noreferrer" title="Click to read the story" className='pdf-link'>
             <div className='pdf-box'>
               <span>Read Story</span>
             </div>
@@ -194,7 +213,7 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
       </section>
 <section className="certificates">
         <h1 className='title4'> Certificates</h1>
-        <div id="certificates-section" className='imgcard'>
+        <div id="certificates-section" className='certcard'>
          <img src="public/assets/Certificates/Certificate.jpg" alt="Certificate"/>
          <img src="public/assets/Certificates/Introduction to HTML .png" alt="Certificate"/>
          <img src="public/assets/Certificates/Introduction to JavaScript.png" alt="Certificate"/>
