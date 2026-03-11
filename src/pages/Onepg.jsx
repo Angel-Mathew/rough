@@ -20,10 +20,10 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
    
      
        <div className="buttons">
-      <button className="sphere" onClick={() => document.getElementById('projects-section').scrollIntoView({ behavior:'smooth'})}>University Projects</button>
-      <button className="sphere" onClick={() => document.getElementById('events-section').scrollIntoView({ behavior:'smooth'})}>University Events</button>
-      <button className="sphere" onClick={() => document.getElementById('personalworks-section').scrollIntoView({ behavior:'smooth'})}>Personal Works</button>
-      <button className="sphere" onClick={() => document.getElementById('certificates-section').scrollIntoView({ behavior:'smooth'})}>Certificates</button>
+      <button className="sphere" onClick={() => document.getElementById('projects-section').scrollIntoView({ behavior:'smooth'})} title="Click me">University Projects</button>
+      <button className="sphere" onClick={() => document.getElementById('events-section').scrollIntoView({ behavior:'smooth'})} title="Click me">University Events</button>
+      <button className="sphere" onClick={() => document.getElementById('personalworks-section').scrollIntoView({ behavior:'smooth'})} title="Click me">Personal Works</button>
+      <button className="sphere" onClick={() => document.getElementById('certificates-section').scrollIntoView({ behavior:'smooth'})} title="Click me">Certificates</button>
     </div>
 
   
@@ -138,7 +138,7 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
         <div className="story-container">
            <img src="public/assets/coverpagebg/valiantgirl.png" alt="Story" className='coverpage'/>
             <div className="story-content-overlay">
-              <h3 className="story-title2">The valiant girl</h3>
+              <h3 className="story-title2">Valiant girl</h3>
               <a href="public/assets/Personalwork/Stories/story_ valiant girl.pdf"
           target="_blank" rel="noopener noreferrer" title="Click to read the story" className='pdf-link'>
             <div className='pdf-box'>
@@ -222,6 +222,7 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
          <img src="public/assets/Certificates/python Tkinter .png" alt="Certificate"/>
          <img src="public/assets/Certificates/Screenshot 2026-01-15 190428.png" alt="Certificate"/>
          <img src="public/assets/Certificates/Storytelling for leaders.png" alt="Certificate"/>
+         <img src="public/assets/Certificates/Figma for UX Design.png" alt="Certificate"/>
          </div>
 </section>
 
